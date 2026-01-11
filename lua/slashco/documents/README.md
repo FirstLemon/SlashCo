@@ -12,9 +12,9 @@ DOCUMENT.Class = SlashCo.SlasherClass.Umbra
 DOCUMENT.DangerLevel = SlashCo.DangerLevel.Considerable
 DOCUMENT.ID = "watcher" -- used for the material icon
 
--- NOTE: You don't have to care about new lines, the menu handles thoes for you.
-DOCUMENT.Description = [[Some description]] -- A description visible as soon as they get the document
-DOCUMENT.AdditionalDescription = [[Additional description]] -- A additional description shown when they managed to survive the slasher.
+-- NOTE: You don't have to care about new lines, the menu handles those for you.
+DOCUMENT.DescriptionID = [[Some description]] -- A description visible as soon as they get the document
+DOCUMENT.AdditionalDescriptionID = [[Additional description]] -- A additional description shown when they managed to survive the slasher.
 
 SlashCo.RegisterDocument(DOCUMENT)
 ```
