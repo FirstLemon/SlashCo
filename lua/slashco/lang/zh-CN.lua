@@ -24,8 +24,6 @@ SlashCo.LangTable["NoneRescued"] = "派出的SlashCo工作人员无法被救援�
 SlashCo.LangTable["Cursed"] = "你的灵魂现在被没收了。"
 SlashCo.LangTable["Judgement"] = "审判"
 SlashCo.LangTable["newplayer_spawnnotice"] = "按 [%s] 生成"
-SlashCo.LangTable["slasher_replacement"] = "你被选为新的屠戮者"
-SlashCo.LangTable["item_refund"] = "你的物品已返还 %s 点数"
 
 SlashCo.LangTable["HP"] = "生命值"
 SlashCo.LangTable["FUEL"] = "燃料"
@@ -534,3 +532,102 @@ SlashCo.LangTable["full surveillance"] = "全面监视"
 SlashCo.LangTable["Watcher_watched"] = "你正在被观察"
 SlashCo.LangTable["Watcher_observe"] = "观察一个幸存者. . ."
 SlashCo.LangTable["Watcher_stalktime"] = "跟踪时间："
+
+-- ToDo: Translate
+-- document localization
+
+-- UI
+SlashCo.LangTable["documents_screen_slasher_title"] = "[杀手]"
+SlashCo.LangTable["documents_screen_locations_title"] = "[位置]"
+SlashCo.LangTable["documents_screen_archive_title"] = "[档案]"
+
+SlashCo.LangTable["documents_screen_left_click_help"] = "[左键点击] = 进入页面"
+SlashCo.LangTable["documents_screen_right_click_help"] = "[右键点击] = 退出页面"
+
+SlashCo.LangTable["documents_unlocky_entry"] = "遇到杀手以解锁条目"
+SlashCo.LangTable["documents_unknown_name"] = "未知"
+SlashCo.LangTable["documents_attached_file"] = "[查看附件]"
+SlashCo.LangTable["documents_danger_level"] = "危险等级："
+SlashCo.LangTable["documents_slasher_class"] = "类别："
+SlashCo.LangTable["documents_slasher_entry"] = "条目："
+SlashCo.LangTable["documents_slasher_alias"] = "别名："
+SlashCo.LangTable["documents_survive_slasher"] = "[生存杀手以获取更多信息]"
+
+
+-- Slashers
+
+-- Abomignat
+SlashCo.LangTable["abomignat_description"] = [[一种大型神秘生物，类似双足哺乳动物，嘴巴异常巨大，像捕蝇草。由于其瘦弱的体型，这种生物移动迅速，利用长而配有厚爪的四肢猎杀猎物，爪子锋利到足以撕裂目标。虽然缺耳导致听觉不佳，但它拥有4个突出的复眼，使其能够获得广阔的视野，从而追踪下一位猎物。]]
+SlashCo.LangTable["abomignat_description_additional"] = [[这个杀手有时会爬行以高速穿越长距离。在高[愤怒]状态下，它会猛扑受害者，造成重伤。]]
+
+-- Amogus
+SlashCo.LangTable["amogus_description"] = [[]]
+SlashCo.LangTable["amogus_description_additional"] = [[]]
+
+-- Bababooey
+SlashCo.LangTable["bababooey_description"] = [[一种非生物实体，由非常浓稠的焦油状烟雾组成，凝结成肌肉发达的男性人形，拥有巨大下巴和大大的微笑嘴巴。这个杀手似乎不太具有攻击性，更倾向于与受害者玩耍。它似乎从吓唬人类并让他们措手不及中获得乐趣。]]
+SlashCo.LangTable["bababooey_description_additional"] = [[当Bababooey的[愤怒]值足够高时，它会开始隐形，并伴随响亮的声音。当隐形时，它会吓唬接触到的幸存者，并留下无害的克隆体来进一步恐吓幸存者。]]
+
+-- Borgmire
+SlashCo.LangTable["borgmire_description"] = [[一台巨大的机械人形装置，拥有大型坚固的钢制手、发光红色护目镜眼睛以及敞开的胸腔和跳动的心脏。这个杀手视力很差，但耐力相当好。]]
+SlashCo.LangTable["borgmire_description_additional"] = [[这个杀手快速积累[愤怒]。追捕时，Borgmire会失去[愤怒]。在高[愤怒]状态下，Borgmire将获得高速冲刺的能力。]]
+
+-- Covenant
+SlashCo.LangTable["covenant_description"] = [[]]
+SlashCo.LangTable["covenant_description_additional"] = [[]]
+
+-- Criminal
+SlashCo.LangTable["criminal_description"] = [[]]
+SlashCo.LangTable["criminal_description_additional"] = [[]]
+
+-- Dolphinman
+SlashCo.LangTable["dolphinman_description"] = [[一种人形神秘生物，具有人的身体和海豚的生物特征。皮肤分泌黏性黏液，呈现光滑湿润的质感。它视力极差，主要依赖听觉和回声定位来感知周围环境。捕猎时会发出持续的尖叫声以威慑目标。]]
+SlashCo.LangTable["dolphinman_description_additional"] = [[这个杀手对声音极其敏感，视力极差。如果被响声激怒，Dolphinman会大声尖叫并开始猎杀。猎杀时，Dolphinman的视力非常好。对响声的敏感度会随[愤怒]增加。]]
+
+-- Smiley Dealer
+SlashCo.LangTable["smiley_description"] = [[]]
+SlashCo.LangTable["smiley_description_additional"] = [[]]
+
+-- Leuonard
+SlashCo.LangTable["leuonard_description"] = [[]]
+SlashCo.LangTable["leuonard_description_additional"] = [[]]
+
+-- Male07
+SlashCo.LangTable["male07_description"] = [[]]
+SlashCo.LangTable["male07_description_additional"] = [[]]
+
+-- Manspider
+SlashCo.LangTable["manspider_description"] = [[]]
+SlashCo.LangTable["manspider_description_additional"] = [[]]
+
+-- Princess
+SlashCo.LangTable["princess_description"] = [[一种犬类生物，非常像过大的比特犬，眼睛闪烁着明亮的绿色光芒。这个恶魔表现出极强的攻击冲动，特别喜欢残忍地袭击和撕咬人类，尤其是婴幼儿。]]
+SlashCo.LangTable["princess_description_additional"] = [[这个杀手快速积累[愤怒]。可以给Princess婴儿进行撕咬，这会降低它的愤怒并短时间安抚它。攻击时，Princess会开始撕咬，受害者必须[挣扎]以逃脱。[愤怒]会增加[挣扎]的难度。]]
+
+-- Rocks
+SlashCo.LangTable["rocks_description"] = [[]]
+SlashCo.LangTable["rocks_description_additional"] = [[]]
+
+-- Sid
+SlashCo.LangTable["sid_description"] = [[一种非生物实体，外形是粗糙制作的饼干怪角色吉祥物服装。这个杀手装备了大口径手枪，似乎无需重新装弹。其发射的子弹口径为.50 BMG。这个杀手极度具有攻击性和精神错乱，其唯一目标似乎是尽可能快速地杀死尽可能多的人类。]]
+SlashCo.LangTable["sid_description_additional"] = [[这个杀手快速积累[愤怒]。在低[愤怒]状态下，Sid会寻找饼干吃。吃饼干会略微降低[愤怒]并让Sid安静约一分钟。高[愤怒]时，Sid会装备枪械，并且不再吃饼干。]]
+
+-- Speedrunner
+SlashCo.LangTable["speedrunner_description"] = [[一个大型骷髅状人形神秘生物，绿色皮肤，戴着白色笑脸面具，相信与在基于方块的生存游戏中尽可能快速通关有关。这个杀手似乎需要“热身”才能发挥最大速度。]]
+SlashCo.LangTable["speedrunner_description_additional"] = [[这个杀手非常快速地积累[愤怒]。Speedrunner只能被动获得[愤怒]。初始移动速度很慢，但会受[愤怒]大幅影响。]]
+
+-- Thirsty
+SlashCo.LangTable["thirsty_description"] = [[一种人形实体，穿着全黑紧身衣，戴着破裂的白色面具。这个杀手移动非常安静，看起来不太具有攻击性，但据推测容易被激怒。这个恶魔非常喜爱牛奶，可用来吸引注意力。]]
+SlashCo.LangTable["thirsty_description_additional"] = [[这个杀手快速积累[愤怒]，尤其在被激怒时。低到中等[愤怒]状态下，Thirsty为被动状态，会寻找牛奶罐饮用。]]
+
+-- Trollge
+SlashCo.LangTable["trollge_description"] = [[一个瘦弱的骷髅形生物，拥有大而扭曲的笑脸头。其动作显得脆弱而缓慢。已显示该杀手在视觉上难以分辨静止物体，同时听力极好，容易被激怒。]]
+SlashCo.LangTable["trollge_description_additional"] = [[在高[愤怒]状态下，Trollge对声音更为敏感，更可能快速冲向声源。]]
+
+-- Tyler
+SlashCo.LangTable["tyler_description"] = [[一种超越物质的无形实体，化身为音乐艺术家Tyler The Creator。处于被动状态时，它似乎喜欢像在舞台上一样跳舞，并用神秘力量凭空创造物品。它也可以显现另一种形态：“Tyler: The Destroyer”。在此杀手出现时，燃料会显著减少，必须在有限时间内找到Tyler The Creator，否则他会暂时变为Tyler: The Destroyer。可以通过听音乐找到他，音量会随[愤怒]下降。Tyler: The Destroyer可以摧毁各种物品，这会缩短其持续时间。]]
+SlashCo.LangTable["tyler_description_additional"] = [[]]
+
+-- Watcher
+SlashCo.LangTable["the watcher_description"] = [[一个暗影实体，形似极高的老人，穿橄榄色大衣，戴圆眼镜和帽子。其移动笨拙，通常被报告在黑暗中耐心观察受害者。此杀手更倾向于成群活动，单独行动时极为残忍。]]
+SlashCo.LangTable["the watcher_description_additional"] = [[这个杀手无法被动积累[愤怒]。观察受害者时，Watcher会极快地积累[愤怒]。]]

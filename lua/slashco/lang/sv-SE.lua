@@ -24,8 +24,6 @@ SlashCo.LangTable["NoneRescued"] = "Dom utskickande SlashCo Arbetarna kunde ej b
 SlashCo.LangTable["Cursed"] = "Din själ är nu försvunnen."
 SlashCo.LangTable["Judgement"] = "UTSLAG"
 SlashCo.LangTable["newplayer_spawnnotice"] = "Tryck på [%s] för att skapa"
-SlashCo.LangTable["slasher_replacement"] = "Du har blivit utsedd till den nya slashern"
-SlashCo.LangTable["item_refund"] = "Du fick %s poäng återbetalda för dina föremål"
 
 SlashCo.LangTable["InLobby"] = "I Väntrummet"
 SlashCo.LangTable["InGame"] = "I Spel (%s)"
@@ -529,3 +527,103 @@ SlashCo.LangTable["Watcher_fullsurveillance"] = "full övervakning"
 SlashCo.LangTable["Watcher_watched"] = "DU ÄR PÅKOLLAD"
 SlashCo.LangTable["Watcher_observe"] = "OBSERVERAR EN ÖVERLEVARE. . ."
 SlashCo.LangTable["Watcher_stalktime"] = "STALK TID: "
+
+-- ToDo: Translate
+-- document localization
+
+-- UI
+SlashCo.LangTable["documents_screen_slasher_title"] = "[SLASHERS]"
+SlashCo.LangTable["documents_screen_locations_title"] = "[LOCATIONS]"
+SlashCo.LangTable["documents_screen_archive_title"] = "[ARCHIVE]"
+
+SlashCo.LangTable["documents_screen_left_click_help"] = "[Left Click] = Enter Page"
+SlashCo.LangTable["documents_screen_right_click_help"] = "[Right Click] = Exit Page"
+
+SlashCo.LangTable["documents_unlocky_entry"] = "ENCOUNTER SLASHER TO UNLOCK ENTRY"
+SlashCo.LangTable["documents_unknown_name"] = "UNKNOWN"
+SlashCo.LangTable["documents_attached_file"] = "[VIEW ATTACHED FILE]"
+SlashCo.LangTable["documents_danger_level"] = "DANGER LVL:"
+SlashCo.LangTable["documents_slasher_class"] = "CLASS:"
+SlashCo.LangTable["documents_slasher_entry"] = "ENTRY:"
+SlashCo.LangTable["documents_slasher_alias"] = "ALIASES:"
+SlashCo.LangTable["documents_survive_slasher"] = "[SURVIVE SLASHER FOR MORE INFO]"
+
+
+-- slasher docs
+
+-- Abomignat
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Abomignat
+SlashCo.LangTable["abomignat_description"] = [[En stor kryptid varelse som liknar ett tvåbent däggdjur med en överväxt mun lik en Venusfluga-fälla. På grund av sin smala kroppsbyggnad verkar denna kryptid röra sig i hög hastighet och jagar sitt byte med sina långa lemmar utrustade med tjocka naglar, tillräckligt vassa för att slita vilket mål som helst i stycken. Kryptiden, även om den har dålig hörsel på grund av avsaknaden av öron, är utrustad med fyra utstickande sammansatta ögon som ger ett brett synfält över omgivningen för att hjälpa till att jaga nästa offer.]]
+SlashCo.LangTable["abomignat_description_additional"] = [[Denna Slasher kommer ibland krypa på marken för att ta sig långa sträckor i hög hastighet. Vid hög [ANGER] kastar den sig mot sina offer och orsakar kraftig skada.]]
+
+-- Amogus
+SlashCo.LangTable["amogus_description"] = [[]]
+SlashCo.LangTable["amogus_description_additional"] = [[]]
+
+-- Bababooey
+SlashCo.LangTable["bababooey_description"] = [[En icke-organisk varelse bestående av mycket tjock, tjärliknande rökpartiklar som kondenserar till formen av en muskulös manlig humanoid med massiv haka och stor leende mun. Denna Slasher verkar inte särskilt aggressiv utan väljer att vara mer lekfull med sina offer. Den verkar njuta av att skrämma människor och få dem ur balans.]]
+SlashCo.LangTable["bababooey_description_additional"] = [[När Bababooey har tillräckligt med [ANGER] börjar han bli osynlig, markerat med ett högt ljud. När han är osynlig skrämmer han överlevare han når. Medan osynlig lämnar han också oskyldiga kloner för att skrämma överlevare.]]
+
+-- Borgmire
+SlashCo.LangTable["borgmire_description"] = [[En enorm mekanisk humanoid konstruktion med stora, solida stål händer, lysande röda glasögonögon och ett öppet bröst med ett bultande hjärta. Denna Slasher har ganska dålig syn men mycket god uthållighet.]]
+SlashCo.LangTable["borgmire_description_additional"] = [[Denna Slasher får [ANGER] snabbt. Under jakt tappar Borgmire [ANGER]. Vid hög [ANGER] får Borgmire förmågan att sprinta mycket snabbt.]]
+
+-- Covenant
+SlashCo.LangTable["covenant_description"] = [[]]
+SlashCo.LangTable["covenant_description_additional"] = [[]]
+
+-- Criminal
+SlashCo.LangTable["criminal_description"] = [[]]
+SlashCo.LangTable["criminal_description_additional"] = [[]]
+
+-- Dolphinman
+SlashCo.LangTable["dolphinman_description"] = [[En humanoid kryptid med människokropp och biologiska drag av en delfin. Huden utsöndrar klibbig slem, vilket ger en glänsande och fuktig yta. Varelsen har mycket dålig syn och förlitar sig mest på hörsel och ekolokalisering för att förstå sin omgivning. Vid jakt sjunger den ett kontinuerligt högt tjut för att skrämma sitt byte.]]
+SlashCo.LangTable["dolphinman_description_additional"] = [[Denna Slasher är extremt känslig för ljud och har mycket dålig syn. Om han störs av ett högt ljud börjar Dolphinman tjuta högt och startar JAKT. Under JAKT har Dolphinman mycket god syn. Känsligheten för höga ljud ökar med [ANGER].]]
+
+-- Smiley Dealer
+SlashCo.LangTable["smiley_description"] = [[]]
+SlashCo.LangTable["smiley_description_additional"] = [[]]
+
+-- Leuonard
+SlashCo.LangTable["leuonard_description"] = [[]]
+SlashCo.LangTable["leuonard_description_additional"] = [[]]
+
+-- Male07
+SlashCo.LangTable["male07_description"] = [[]]
+SlashCo.LangTable["male07_description_additional"] = [[]]
+
+-- Manspider
+SlashCo.LangTable["manspider_description"] = [[]]
+SlashCo.LangTable["manspider_description_additional"] = [[]]
+
+-- Princess
+SlashCo.LangTable["princess_description"] = [[En hundliknande varelse som starkt liknar en extremt stor Pitbull med lysande gröna ögon. Denna Demon har visat en stark lust att brutalt attackera och slita människor, särskilt småbarn.]]
+SlashCo.LangTable["princess_description_additional"] = [[Denna Slasher får [ANGER] SNABBT. Princess kan ges Bebisar att slita på, vilket minskar hennes ilska och lugnar henne för en kort stund. Vid attack börjar Princess slita, och offret måste [STRUGGLE] för att komma loss. [ANGER] ökar svårigheten av [STRUGGLE].]]
+
+-- Rocks
+SlashCo.LangTable["rocks_description"] = [[]]
+SlashCo.LangTable["rocks_description_additional"] = [[]]
+
+-- Sid
+SlashCo.LangTable["sid_description"] = [[En icke-organisk varelse som tar formen av en grovt gjord maskotdräkt av karaktären Cookie Monster. Slasher är beväpnad med en stor kaliber pistol som verkar fungera utan behov av omladdning. Patronerna är kaliber .50 BMG. Denna Slasher är extremt aggressiv och psykotisk. Hans enda mål verkar vara att döda så många människor som möjligt så snabbt som möjligt.]]
+SlashCo.LangTable["sid_description_additional"] = [[Denna Slasher får [ANGER] snabbt. Vid låg [ANGER] söker Sid efter kakor att äta. Att äta en kaka minskar lite [ANGER] och lugnar Sid i cirka en minut. Vid hög [ANGER] utrustar Sid sin pistol. Efter detta kommer han inte längre att äta kakor.]]
+
+-- Speedrunner
+SlashCo.LangTable["speedrunner_description"] = [[En stor, skelettliknande, humanoid kryptid med grön hud, som bär en vit mask med ett leende ansikte, tros vara kopplad till att klara ett blockbaserat överlevnadsspel på kortast möjliga tid. Denna Slasher verkar behöva en slags "uppvärmning" innan han kan använda sin fulla hastighet.]]
+SlashCo.LangTable["speedrunner_description_additional"] = [[Denna Slasher får [ANGER] MYCKET SNABBT. Speedrunner kan endast få [ANGER] passivt. Denna Slashers rörelsehastighet är initialt mycket låg men påverkas kraftigt av [ANGER].]]
+
+-- Thirsty
+SlashCo.LangTable["thirsty_description"] = [[En humanoid varelse som ser ut att bära en helt svart dräkt och en sprucken, enkel vit mask. Denna Slasher rör sig mycket tyst och verkar inte vara särskilt aggressiv, men misstänks vara lättirriterad om provocerad. Denna Demon har en otroligt hög dragning till Mjölk, vilket kan användas för att distrahera den.]]
+SlashCo.LangTable["thirsty_description_additional"] = [[Denna Slasher får [ANGER] snabbt, särskilt om den provoceras. Vid låg till medel [ANGER] är Thirsty PASSIV. Thirsty söker efter mjölkpaket att dricka.]]
+
+-- Trollge
+SlashCo.LangTable["trollge_description"] = [[En tunn, skelettlik figur med ett stort, förvridet leende huvud. Varelsens rörelser verkar sköra och långsamma. Det har visat sig att denna Slasher har stora svårigheter att visuellt uppfatta föremål som inte är i rörelse. Slasher har också mycket god hörsel och verkar lättirriterad.]]
+SlashCo.LangTable["trollge_description_additional"] = [[Vid hög [ANGER] blir Trollge mer känslig för ljud och mer benägen att sprinta mot dem.]]
+
+-- Tyler
+SlashCo.LangTable["tyler_description"] = [[En transcendent icke-kroppslig varelse som antar formen av musikartisten Tyler The Creator. I sitt passiva tillstånd verkar enheten njuta av att dansa som på scen och använda sin oförklarliga kraft för att skapa föremål ur tomma intet. Varelsen kan också manifestera i en alternativ form; "Tyler: The Destroyer." BRÄNSLE blir betydligt mer sällsynt med denna Slasher närvarande, Tyler The Creator måste hittas inom en begränsad tid; annars blir han Tyler: The Destroyer under en kort tid. Han kan hittas genom att lyssna på hans musik, vars volym minskar med [ANGER]. Tyler: The Destroyer kan FÖRSTÖRA olika FÖREMÅL, vilket förkortar hans varaktighet.]]
+SlashCo.LangTable["tyler_description_additional"] = [[]]
+
+-- Watcher
+SlashCo.LangTable["the watcher_description"] = [[En umbra-varelse som tar formen av en extremt lång gammal man i en olivgrön rock, runda glasögon och hatt. Varelsen snubblar klumpigt när den rör sig och har mest rapporterats observera offer tålmodigt medan den gömmer sig i mörkret. Denna Slasher föredrar att stanna i grupper och har visat sig vara en brutal mördare när den agerar ensam.]]
+SlashCo.LangTable["the watcher_description_additional"] = [[Denna Slasher kan inte passivt få [ANGER]. The Watcher får VÄLDIGT SNABBT [ANGER] när han observerar ett offer.]]

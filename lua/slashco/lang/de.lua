@@ -42,7 +42,7 @@ SlashCo.LangTable["Hard"] = "Schwer"
 
 SlashCo.LangTable["Unknown"] = "Unbekannt"
 SlashCo.LangTable["Name"] = "Name: %s"
-SlashCo.LangTable["Notes"] = "Noten"
+SlashCo.LangTable["Notes"] = "Notizen"
 
 SlashCo.LangTable["Class"] = "Klasse: %s"
 SlashCo.LangTable["Cryptid"] = "Kryptid"
@@ -105,8 +105,8 @@ SlashCo.LangTable["Nightmare_desc"] = "Der Hubschrauber wird dich retten, unabh�
 --ITEMS
 
 SlashCo.LangTable["PointCount"] = "PUNKTE"
-SlashCo.LangTable["SurvivorWins"] = "GEWINNE ALS ÜBERLEBENDER"
-SlashCo.LangTable["SlasherWins"] = "GEWINNE ALS SLASHER"
+SlashCo.LangTable["SurvivorWins"] = "SIEGE ALS ÜBERLEBENDER"
+SlashCo.LangTable["SlasherWins"] = "SIEGE ALS SLASHER"
 
 SlashCo.LangTable["ToggleSpectate"] = "ZUSCHAUER ANSCHALTEN"
 SlashCo.LangTable["SelectPlayermodel"] = "SPIELERMODELL WÄHLEN"
@@ -114,10 +114,10 @@ SlashCo.LangTable["SelectPlayermodel"] = "SPIELERMODELL WÄHLEN"
 SlashCo.LangTable["NotReady"] = "NICHT BEREIT"
 SlashCo.LangTable["ReadyAs"] = "BEREIT ALS %s"
 
-SlashCo.LangTable["MapSelect"] = "WÄHLEN SIE EINE KARTE"
+SlashCo.LangTable["MapSelect"] = "WÄHLE EINE KARTE"
 
-SlashCo.LangTable["Item"] = "Item"
-SlashCo.LangTable["ItemSelection"] = "GEGENSTAND AUSWAHL"
+SlashCo.LangTable["Item"] = "Gegenstand"
+SlashCo.LangTable["ItemSelection"] = "GEGENSTANDS AUSWAHL"
 SlashCo.LangTable["ItemSelectionTitle"] = "WÄHLE EINEN GEGENSTAND AUS"
 
 SlashCo.LangTable["MapGuarantee"] = "KARTENGARANTIE"
@@ -300,6 +300,8 @@ SlashCo.LangTable["Abomignat_desc"] = [[Der monströse Slasher, der einfache Fä
 -Es kann einen schnellen Ausfallschritt auf kurze Distanz ausführen, um seine Opfer zu erledigen.
 -Der Crawling-Modus ermöglicht ein schnelles Durchqueren der Map.]]
 SlashCo.LangTable["Abomignat_tip"] = "-Dieser Slasher gibt beim Angreifen Geschwindigkeitsstöße von sich."
+SlashCo.LangTable["abomignat_alias_alien"] = "Das Alien"
+SlashCo.LangTable["abomignat_alias_rat"] = "Die Ratte"
 
 SlashCo.LangTable["Abomignat_enablecrawling"] = "Krabbeln aktivieren"
 SlashCo.LangTable["Abomignat_disablecrawling"] = "Krabbeln deaktivieren"
@@ -328,6 +330,9 @@ SlashCo.LangTable["Bababooey_desc"] = [[Der Phantom Slasher, der sich auf Illusi
 -Bababooey kann sich unsichtbar machen.
 -Er kann einen Phantomklon von sich selbst erschaffen, um Überlebende zu erschrecken und zu lokalisieren.]]
 SlashCo.LangTable["Bababooey_tip"] = "-Dieser Slasher hat die Fähigkeit, sich selbst in Luft aufzulösen."
+SlashCo.LangTable["bababooey_alias_phantom"] = "Phantom"
+SlashCo.LangTable["bababooey_alias_man"] = "Der Mann"
+SlashCo.LangTable["bababooey_alias_mist"] = "Der Nebel"
 
 SlashCo.LangTable["Bababooey_enableinvis"] = "Unsichtbarkeit aktivieren"
 SlashCo.LangTable["Bababooey_disableinvis"] = "Unsichtbarkeit deaktivieren"
@@ -341,6 +346,8 @@ SlashCo.LangTable["Borgmire_desc"] = [[Der brutale Slasher, der Überlebende mit
 -Borgmire ist am effektivsten bei kurzen Verfolgungen.
 -Er kann Überlebende in der Nähe aufheben und werfen, um ihnen schweren Schaden hinzuzufügen.]]
 SlashCo.LangTable["Borgmire_tip"] = "-Dieser Slasher scheint bei langen Verfolgungen unter Erschöpfung zu leiden."
+SlashCo.LangTable["borgmire_alias_tim"] = "Tim"
+SlashCo.LangTable["borgmire_alias_borg"] = "Borg"
 
 SlashCo.LangTable["Borgmire_punch"] = "Schlag"
 SlashCo.LangTable["Borgmire_throw"] = "Wurf"
@@ -378,6 +385,7 @@ SlashCo.LangTable["Dolphinman_desc"] = [[Der geduldige Slasher, der auf Überleb
 -Wenn er gefunden wurde, wird seine Kraft aktiviert und bleibt aktiv, bis er keinen Jagd mehr hat.
 -Tötung von Überlebenden erhöht die Jagd.]]
 SlashCo.LangTable["Dolphinman_tip"] = "-Dieser Slasher scheint sich seinen Opfern nicht von selbst zu nähern."
+SlashCo.LangTable["dolphinman_alias_dolfin"] = "Dolfin"
 
 SlashCo.LangTable["Dolphinman_cannothide"] = "Du kannst dich hier nicht verstecken. Ein Überlebender ist zu nah."
 SlashCo.LangTable["Dolphinman_hide"] = "Verstecken"
@@ -443,6 +451,8 @@ SlashCo.LangTable["Princess_desc"] = [[Der wilde Slasher, der Kinder zerfleischt
 -Die Wutgrenze kann durch das Zerfleischen von Babies erhöht werden, wodurch die Wut zurückgesetzt wird.
 -Je höher die Wut, desto schneller und brutaler ist die Jagd.]]
 SlashCo.LangTable["Princess_tip"] = "-Dieser Slasher kann mit Babies abgelenkt werden."
+SlashCo.LangTable["princess_alias_cupcake"] = "Cupcake"
+SlashCo.LangTable["princess_alias_satan"] = "Satan Tod Zerstörer"
 
 SlashCo.LangTable["Princess_sniff"] = "schnüffeln"
 SlashCo.LangTable["Princess_maul"] = "zerfleischen"
@@ -456,6 +466,8 @@ SlashCo.LangTable["Sid_desc"] = [[Der psychotische Slasher, der seine Wut mit Ke
 -Kekse werden ihn für eine Weile besänftigen.
 -Sids spezielle Fähigkeit erlaubt es ihm, Überlebende aus großer Distanz zu vernichten.]]
 SlashCo.LangTable["Sid_tip"] = "-Laute Gewehrschüsse wurden in Zonen gehört, in denen dieser Slasher anwesend war."
+SlashCo.LangTable["sid_alias_sidney"] = "Sidney Monster"
+SlashCo.LangTable["sid_alias_cookie"] = "Keks Monster"
 
 SlashCo.LangTable["Sid_gun_title"] = "Sid (mit einer Waffe)"
 SlashCo.LangTable["Sid_gunuses"] = "Waffe verwendungen"
@@ -473,6 +485,7 @@ SlashCo.LangTable["Speedrunner_desc"] = [[Der schnelle Slasher, bei dem die Gesc
 wodurch die Geschwindigkeit zurückgesetzt wird, aber es erlaubt ihm, sie schneller und mehr auf einmal wiederzuerlangen.
 -RNG Opferung hat zusätzliche Auswirkungen auf die Runde, wenn es eingesetzt wird.]]
 SlashCo.LangTable["Speedrunner_tip"] = "-Dieser Slasher wird mit der Zeit außerordentlich schnell."
+SlashCo.LangTable["speedrunner_alias_hunted"] = "Der Gejagte"
 
 SlashCo.LangTable["Speedrunner_speed"] = "Geschwindigkeit"
 SlashCo.LangTable["Speedrunner_sacrifice"] = "RNG Opferung"
@@ -485,6 +498,8 @@ SlashCo.LangTable["Thirsty_desc"] = [[Der Milch Slasher, dem seine Fähigkeiten 
 -Je durstiger er ist, desto langsamer wird er, aber er kann die Position der Spieler spüren.
 -Thirsty ist sehr leise.]]
 SlashCo.LangTable["Thirsty_tip"] = "-Dieser Slasher ist schwer mit Milch Krügen verbunden."
+SlashCo.LangTable["thirsty_alias_thirsty"] = "Durstiger Dämon"
+SlashCo.LangTable["thirsty_alias_milk"] = "Milch Dämon"
 
 SlashCo.LangTable["Thirsty_drinkmilk"] = "Milch trinken"
 SlashCo.LangTable["Thirsty_milkies"] = "milkies"
@@ -499,6 +514,7 @@ Blut das er gesammelt hat vergrößert.
 -Er muss genug Blut sammeln, um seine wahre Form zu erreichen.
 -Er kann kein Blut mehr sammeln, wenn die Runde weit genug fortgeschritten ist]]
 SlashCo.LangTable["Trollge_tip"] = "-Seine Sehkraft scheint auf bewegliche Objekte beschränkt zu sein."
+SlashCo.LangTable["trollege_alias_comedy"] = "Komödie"
 
 SlashCo.LangTable["Trollge_dash"] = "Sprint"
 SlashCo.LangTable["Trollge_claw"] = "Kralle"
@@ -527,6 +543,8 @@ SlashCo.LangTable["Watcher_desc"] = [[Der beobachtende Slasher, dessen Kraft auf
 -Er wird verlangsamt, wenn er angeschaut wird, aber jeder, der dies tut, wird aufgedeckt.
 -Der Wächter kann Überlebende verfolgen, um seine Spezialfähigkeit „Vollständige Überwachung“ zu entwickeln.]]
 SlashCo.LangTable["Watcher_tip"] = "-Dieser Slasher leidet unter einem Geschwindigkeitsverlust, wenn er beobachtet wird."
+SlashCo.LangTable["watcher_alias_agent"] = "Der Agent"
+SlashCo.LangTable["watcher_alias_brother"] = "Großer Bruder"
 
 SlashCo.LangTable["Watcher_survey"] = "BEOBACHTEN"
 SlashCo.LangTable["Watcher_fullsurveillance"] = "VOLLE ÜBERWACHUNG"
@@ -583,4 +601,114 @@ SlashCo.LangTable["points_item"] = "[%s] ITEM-RÜCKKAUF" --misc points
 SlashCo.LangTable["points_quickescape"] = "[%s] SCHNELLE FLUCHT"
 SlashCo.LangTable["points_slowescape"] = "[%s] LANGSAME FLUCHT"
 SlashCo.LangTable["points_benadryl"] = "[%s] BENADRYL"
-SlashCo.LangTable["points_working"] = "[%s] DEINEN JOB GETAN"
+SlashCo.LangTable["points_working"] = "[%s] DEINEN JOB ERLEDIGT"
+
+-- ToDo: Translate
+-- document localization
+
+-- UI
+SlashCo.LangTable["documents_screen_slasher_title"] = "[SLASHERS]"
+SlashCo.LangTable["documents_screen_locations_title"] = "[EINSATZORTE]"
+SlashCo.LangTable["documents_screen_archive_title"] = "[ARCHIV]"
+
+SlashCo.LangTable["documents_screen_left_click_help"] = "[Links Klick] = Seite öffnen"
+SlashCo.LangTable["documents_screen_right_click_help"] = "[Rechts Klick] = Seite schließen"
+
+SlashCo.LangTable["documents_unlocky_entry"] = "BEGEGNE DEM SLASHER ZUR FREISCHALTUNG"
+SlashCo.LangTable["documents_unknown_name"] = "UNBEKANNT"
+SlashCo.LangTable["documents_attached_file"] = "[ANHANG ANSCHAUEN]"
+SlashCo.LangTable["documents_danger_level"] = "GEFAHREN LVL:"
+SlashCo.LangTable["documents_slasher_class"] = "KLASSE:"
+SlashCo.LangTable["documents_slasher_entry"] = "EINTRAG:"
+SlashCo.LangTable["documents_slasher_alias"] = "SPITZNAMEN:"
+SlashCo.LangTable["documents_survive_slasher"] = "[ÜBERLEBE DEN SLASHER FÜR MEHR INFO]"
+
+
+-- Slasher docs
+
+-- Abomignat
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Abomignat
+SlashCo.LangTable["abomignat_description"] = [[Eine große kryptide Kreatur, die einem zweibeinigen Säugetier ähnelt und ein übergroßes Maul hat, das dem einer Venusfliegenfalle ähnelt. Aufgrund seiner dünnen Begebenheit scheint sich dieser Kryptide mit hoher Geschwindigkeit zu bewegen. Es jagt seine Beute mit seinen langen Gliedmaßen, die mit dicken Nägeln ausgestattet scharf genug sind, um jedes Ziel in Stücke zu reißen. Obwohl das Subjekt aufgrund seiner fehlenden Ohren nicht gut hören kann, ist er mit vier hervorstehenden Facettenaugen ausgestattet, die ihm ein weites Sichtfeld auf seine Umgebung ermöglichen, um sein nächstes Opfer zu erlegen.]]
+SlashCo.LangTable["abomignat_description_additional"] = [[Dieser Slasher kriecht manchmal auf dem Boden, um lange Strecken mit hoher Geschwindigkeit zurückzulegen. Bei hoher [WUT] stürzt er sich auf seine Opfer und fügt ihnen schweren Schaden zu.]]
+
+-- Amogus
+SlashCo.LangTable["amogus_description"] = [[-WIP-]]
+SlashCo.LangTable["amogus_description_additional"] = [[]]
+
+-- Bababooey
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Bababooey
+SlashCo.LangTable["bababooey_description"] = [[Ein nicht-organisches Wesen, das aus sehr dicken, teerähnlichen Rauchpartikeln besteht, die sich in der Form eines muskulösen, männlichen Humanoiden mit einem massiven Kinn und einem riesigen lächelnden Mund verdichten. Dieser Slasher scheint nicht sehr aggressiv zu sein, sondern geht eher spielerisch mit seinen Opfern um. Es scheint ihm Spaß zu machen, Menschen zu erschrecken und sie zu überraschen.]]
+SlashCo.LangTable["bababooey_description_additional"] = [[Wenn Bababooey genug [WUT] hat, wird er unsichtbar, was durch ein lautes Geräusch angekündigt wird. Wenn er unsichtbar ist, erschreckt er Überlebende, die er erreicht. Während er unsichtbar ist, hinterlässt er auch harmlose Klone, um Überlebende zu erschrecken.]]
+
+-- Borgmire
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Borgmire
+SlashCo.LangTable["borgmire_description"] = [[Eine riesige humanoide mechanische Vorrichtung mit großen, massiven Stahlhänden, rot glühenden Kulleraugen und einer offenen Brusthöhle mit einem schlagenden Herzen. Dieser Slasher hat ein ziemlich schlechtes Sehvermögen, aber eine beträchtliche Ausdauer.]]
+SlashCo.LangTable["borgmire_description_additional"] = [[Dieser Slasher gewinnt schnell an [WUT]. Während der einer Jagd verliert Borgmire [WUT]. Bei hoher [WUT] erhält Borgmire die Fähigkeit, sehr schnell zu sprinten.]]
+
+-- Covenant
+SlashCo.LangTable["covenant_description"] = [[-WIP-]]
+SlashCo.LangTable["covenant_description_additional"] = [[]]
+
+-- Criminal
+SlashCo.LangTable["criminal_description"] = [[-WIP-]]
+SlashCo.LangTable["criminal_description_additional"] = [[]]
+
+-- Dolphinman
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Dolphinman
+SlashCo.LangTable["dolphinman_description"] = [[Ein humanoides, kryptides Wesen, das den Körper eines Menschen mit den biologischen Merkmalen eines Delphins hat. Seine Haut sondert einen klebrigen Schleim ab, der ihr eine glitzernde und feuchte Oberfläche verleiht. Die Kreatur hat ein sehr schlechtes Sehvermögen und verlässt sich hauptsächlich auf ihr Gehör und ihre Echoortung, um ihre Umgebung wahrzunehmen. Bei der Jagd singt es einen ununterbrochenen lauten Schrei, um sein Ziel einzuschüchtern.]]
+SlashCo.LangTable["dolphinman_description_additional"] = [[Dieser Slasher ist extrem geräuschempfindlich und hat eine extrem schlechte Sehkraft. Wenn er durch ein lautes Geräusch aufgeregt wird, fängt er an, laut zu heulen und zu jagen. Bei der JAGD hat er ein sehr gutes Sehvermögen. Die Empfindlichkeit gegenüber lauten Geräuschen steigt mit [WUT].]]
+
+-- Smiley Dealer
+SlashCo.LangTable["smiley_description"] = [[-WIP-]]
+SlashCo.LangTable["smiley_description_additional"] = [[]]
+
+-- Leuonard
+SlashCo.LangTable["leuonard_description"] = [[-WIP-]]
+SlashCo.LangTable["leuonard_description_additional"] = [[]]
+
+-- Male07
+SlashCo.LangTable["male07_description"] = [[-WIP-]]
+SlashCo.LangTable["male07_description_additional"] = [[]]
+
+-- Manspider
+SlashCo.LangTable["manspider_description"] = [[-WIP-]]
+SlashCo.LangTable["manspider_description_additional"] = [[]]
+
+-- Princess
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Princess
+SlashCo.LangTable["princess_description"] = [[Eine hundeartige Kreatur, die stark an einen übergroßen Pitbull erinnert, mit hell leuchtenden grünen Augen. Dieser Dämon hat einen besonders großen Drang, Menschen brutal anzugreifen und zu zerfleischen, vor allem Säuglinge und kleine Kinder.]]
+SlashCo.LangTable["princess_description_additional"] = [[Dieser Slasher gewinnt SCHNELL an [WUT]. Man kann Prinzessin Babys zum Zerfleischen geben, was die Wut senkt und es für eine kurze Zeit besänftigt. Wenn Prinzessin angreift, beginnt es mit dem Zerfleischen und das Opfer muss [ANKÄMPFEN], um sich dem Griff zu entziehen. Die [WUT] erhöht die Schwierigkeit des [ANKÄMPFENS].]]
+
+-- Rocks
+SlashCo.LangTable["rocks_description"] = [[-WIP-]]
+SlashCo.LangTable["rocks_description_additional"] = [[]]
+
+-- Sid
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Sid
+SlashCo.LangTable["sid_description"] = [[Ein nicht organisches Wesen, das die Form eines grob angefertigten Maskottchenkostüms der Figur Cookie Monster hat. Der Slasher ist mit einer großkalibrigen Handfeuerwaffe bewaffnet, die ohne Nachladen zu funktionieren scheint. Die von ihm abgefeuerten Kugeln wurden als .50 BMG bestimmt. Der Slasher ist extrem aggressiv und psychotisch. Seine einzige Sorge scheint darin zu bestehen, so viele Menschen wie möglich so schnell wie möglich zu töten.]]
+SlashCo.LangTable["sid_description_additional"] = [[Dieser Slasher gewinnt schnell an [WUT]. Bei niedriger [WUT] sucht Sid nach Keksen, um sie zu essen. Der Verzehr eines Kekses reduziert die [WUT] leicht und beruhigt Sid für etwa eine Minute. Bei hoher [WUT] rüstet Sid seine Waffe aus. Danach wird er keine Kekse mehr essen.]]
+
+-- Speedrunner
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Speedrunner
+SlashCo.LangTable["speedrunner_description"] = [[Ein großer, skelettartiger, humanoider, grünhäutiger Kryptide, der eine weiße Smiley-Maske trägt und von dem man annimmt, dass er damit zu tun hat, ein blockbasiertes Überlebensspiel in der kürzest möglichen Zeit zu bewältigen. Dieser Slasher scheint eine Art „Aufwärmphase“ zu benötigen, bevor er seine volle Geschwindigkeit nutzen kann.]]
+SlashCo.LangTable["speedrunner_description_additional"] = [[Dieser Slasher gewinnt SEHR SCHNELL [WUT]. Speedrunner kann [WUT] nur passiv erlangen. Die Bewegungsgeschwindigkeit dieses Slashers ist anfangs sehr langsam, wird aber stark von [WUT] beeinflusst.]]
+
+-- Thristy
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Thirsty
+SlashCo.LangTable["thirsty_description"] = [[Ein humanoides Wesen, das einen komplett schwarzen Ganzkörperanzug und eine rissige, einfarbige weiße Maske zu tragen scheint. Dieser Slasher bewegt sich sehr leise und scheint nicht sehr aggressiv zu sein, aber es wird vermutet, dass er leicht reizbar ist, wenn er provoziert wird. Dieser Dämon hat eine unglaublich hohe Vorliebe für Milch, was als Vorteil genutzt werden könnte, um ihn abzulenken.]]
+SlashCo.LangTable["thirsty_description_additional"] = [[Dieser Slasher gewinnt schnell an [WUT], besonders wenn er verärgert ist. Bei niedriger bis mittlerer [WUT] ist Thirsty PASSIV. Thirsty sucht nach Milchkannen, um zu trinken.]]
+
+-- Trollege
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Trollge
+SlashCo.LangTable["trollge_description"] = [[Eine dünne, skelettartige Gestalt mit einem großen, verzerrt lächelnden Kopf. Die Bewegungen des Wesens wirken gebrechlich und langsam. Es hat sich gezeigt, dass dieser Slasher große Schwierigkeiten hat, Objekte, die sich nicht bewegen, visuell zu erkennen. Der Slasher hat außerdem ein unglaublich gutes Gehör und scheint leicht zu reizen zu sein.]]
+SlashCo.LangTable["trollge_description_additional"] = [[Bei hoher [WUT] wird Trollge empfindlicher für Geräusche und sprintet eher auf sie zu.]]
+
+-- Tyler
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Igor
+SlashCo.LangTable["tyler_description"] = [[Ein transzendentes, nicht körperliches Wesen, das die Form des Musikkünstlers Tyler The Creator annimmt. In seinem passiven Zustand scheint das Wesen Spaß daran zu haben, wie auf einer Bühne zu tanzen und mit seiner Kraft Objekte aus dem Nichts zu erschaffen. Die Entität kann sich auch in einer anderen Form manifestieren: „Tyler: The Destroyer“. Der Treibstoff wird mit der Anwesenheit von Tyler deutlich knapper, Tyler The Creator muss innerhalb einer bestimmten Zeit gefunden werden, sonst wird er für kurze Zeit zu Tyler: The Destroyer. Er kann gefunden werden, indem man auf seine Musik achtet, deren Lautstärke mit [ANGER] abnimmt. Tyler: Der Zerstörer kann verschiedene ITEMS zerstören, wodurch sich seine passiv Dauer verkürzt.]]
+SlashCo.LangTable["tyler_description_additional"] = [[]]
+
+-- Watcher
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/The_Watcher
+SlashCo.LangTable["the watcher_description"] = [[Eine Kreatur der Stufe Umbra, die die Gestalt eines extrem großen alten Mannes annimmt, der einen olivfarbenen Mantel, eine runde Brille und einen Hut trägt. Der Watcher stolpert unbeholfen, wenn er sich bewegt, und es wurde berichtet, dass er seine Opfer geduldig beobachtet, während er sich in der Dunkelheit versteckt. Es wurde ebenfalls gemeldet, dass dieser Slasher es vorzieht, sich von Gruppen fern zuhalten, und sich als brutaler Killer erweist, wenn sein Opfer alleine handelt.]]
+SlashCo.LangTable["the watcher_description_additional"] = [[Dieser Slasher kann nicht passiv [WUT] gewinnen. Der Watcher wird SEHR SCHNELL [WUT] gewinnen, wenn er ein Opfer beobachtet.]]

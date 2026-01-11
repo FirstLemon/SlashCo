@@ -24,8 +24,6 @@ SlashCo.LangTable["NoneRescued"] = "Het uitgezonden SlashCo-personeel kon niet g
 SlashCo.LangTable["Cursed"] = "Je ziel is nu opgeofferd."
 SlashCo.LangTable["Judgement"] = "OORDEEL"
 SlashCo.LangTable["newplayer_spawnnotice"] = "Druk op [%s] om te spawnen"
-SlashCo.LangTable["slasher_replacement"] = "Je bent gekozen als de nieuwe slasher"
-SlashCo.LangTable["item_refund"] = "Je hebt %s punten teruggekregen voor je items"
 
 SlashCo.LangTable["InLobby"] = "In Lobby"
 SlashCo.LangTable["InGame"] = "In Game (%s)"
@@ -519,3 +517,113 @@ SlashCo.LangTable["Beacon_unavailable"] = "Je kunt het Noodbaken gebruiken als e
 
 SlashCo.LangTable["Flare"] = "Lichtsignaal"
 SlashCo.LangTable["Flare_desc"] = "Als je dit gebruikt creëert het een permanent signaal voor alle Overlevenden."
+
+-- ToDo: Translate
+-- document localization
+
+-- UI
+SlashCo.LangTable["documents_screen_slasher_title"] = "[SLASHERS]"
+SlashCo.LangTable["documents_screen_locations_title"] = "[LOCATIES]"
+SlashCo.LangTable["documents_screen_archive_title"] = "[ARCHIEF]"
+
+SlashCo.LangTable["documents_screen_left_click_help"] = "[Klik links] = Pagina invoeren"
+SlashCo.LangTable["documents_screen_right_click_help"] = "[Klik rechts] = Pagina verlaten"
+
+SlashCo.LangTable["documents_unlocky_entry"] = "ONTMOET SLASHER OM TOEGANG TE ONTGRENDELEN"
+SlashCo.LangTable["documents_unknown_name"] = "UNKNOWN"
+SlashCo.LangTable["documents_attached_file"] = "[BIJGEVOEGD BESTAND BEKIJKEN]"
+SlashCo.LangTable["documents_danger_level"] = "GEVAAR LVL:"
+SlashCo.LangTable["documents_slasher_class"] = "KLASSE:"
+SlashCo.LangTable["documents_slasher_entry"] = "ENTREE:"
+SlashCo.LangTable["documents_slasher_alias"] = "ALIASSEN:"
+SlashCo.LangTable["documents_survive_slasher"] = "[OVERLEVEN SLASHER VOOR MEER INFO]"
+
+
+-- slasher docs
+
+-- Abomignat
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Abomignat
+SlashCo.LangTable["abomignat_description"] = [[Een groot cryptide wezen dat lijkt op een tweevoetig zoogdier met een uit de kluiten gewassen mond die lijkt op die van een Venus vliegenvanger. Door zijn magere complexiteit lijkt deze cryptide zich met hoge snelheden te verplaatsen en jaagt hij op zijn prooi met zijn lange ledematen die zijn uitgerust met dikke nagels, scherp genoeg om elk doelwit in stukken te scheuren. Hoewel de cryptide niet goed kan horen door het ontbreken van oren, is hij uitgerust met 4 uitpuilende samengestelde ogen, die hem een breed gezichtsveld geven over zijn omgeving om te helpen bij de jacht op zijn volgende slachtoffer.]]
+SlashCo.LangTable["abomignat_description_additional"] = [[Deze Slasher kruipt soms over de grond om met hoge snelheid lange afstanden af te leggen. Bij een hoge [ANGER] zal hij zijn slachtoffers aanvallen en zware schade toebrengen.]]
+
+-- Amogus
+SlashCo.LangTable["amogus_description"] = [[]]
+SlashCo.LangTable["amogus_description_additional"] = [[]]
+
+-- Bababooey
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Bababooey
+SlashCo.LangTable["bababooey_description"] = [[Een niet-organische entiteit die bestaat uit zeer dikke, teerachtige rookdeeltjes die zichzelf condenseert in de vorm van een gespierde mannelijke mensachtige, met een enorme kin en een enorme lachende mond. Deze Slasher lijkt niet erg agressief en kiest ervoor om speels te zijn met zijn slachtoffers. Hij lijkt er plezier in te scheppen om mensen bang te maken en ze van hun stuk te brengen.]]
+SlashCo.LangTable["bababooey_description_additional"] = [[Als Bababooey genoeg [ANGER] heeft, wordt hij onzichtbaar, wat wordt aangegeven met een hard geluid. Als hij onzichtbaar is, jaagt hij overlevenden die hij bereikt de stuipen op het lijf. Als hij onzichtbaar is, laat hij ook onschadelijke klonen achter om overlevenden bang te maken.]]
+
+-- Borgmire
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Borgmire
+SlashCo.LangTable["borgmire_description"] = [[Een enorm, humanoïde, mechanisch apparaat met grote, massief stalen handen, gloeiende, rode brilogen en een open borstholte met een kloppend hart. Deze Slasher heeft een vrij slecht gezichtsvermogen, maar een aanzienlijk goed uithoudingsvermogen.]]
+SlashCo.LangTable["borgmire_description_additional"] = [[Deze Slasher krijgt snel [ANGER]. Tijdens de achtervolging verliest Borgmire [ANGER]. Bij een hoge [ANGER] kan Borgmire heel snel sprinten.]]
+
+-- Covenant
+SlashCo.LangTable["covenant_description"] = [[]]
+SlashCo.LangTable["covenant_description_additional"] = [[]]
+
+-- Criminal
+SlashCo.LangTable["criminal_description"] = [[]]
+SlashCo.LangTable["criminal_description_additional"] = [[]]
+
+-- Dolphinman
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Dolphinman
+SlashCo.LangTable["dolphinman_description"] = [[Een humanoïde cryptide wezen, met het lichaam van een mens en de biologische kenmerken van een dolfijn. Zijn huid scheidt een kleverig slijm af, waardoor het een glinsterende en vochtige textuur heeft. Het wezen ziet heel slecht en vertrouwt voornamelijk op zijn gehoor en echolocatie om zijn omgeving te verkennen. Tijdens de jacht zingt hij een aanhoudend luid gejammer om zijn doelwit te intimideren.]]
+SlashCo.LangTable["dolphinman_description_additional"] = [[Deze Slasher is extreem gevoelig voor geluid en heeft een extreem slecht gezichtsvermogen. Als hij wordt opgewonden door een hard geluid, begint de dolfijn luid te jammeren en te JAGEN. Tijdens het JAGEN heeft de dolfijnman een zeer goed gezichtsvermogen. Gevoeligheid voor harde geluiden neemt toe met [ANGER].]]
+
+-- Smiley Dealer
+SlashCo.LangTable["smiley_description"] = [[]]
+SlashCo.LangTable["smiley_description_additional"] = [[]]
+
+-- Leuonard
+SlashCo.LangTable["leuonard_description"] = [[]]
+SlashCo.LangTable["leuonard_description_additional"] = [[]]
+
+-- Male07
+SlashCo.LangTable["male07_description"] = [[]]
+SlashCo.LangTable["male07_description_additional"] = [[]]
+
+-- Manspider
+SlashCo.LangTable["manspider_description"] = [[]]
+SlashCo.LangTable["manspider_description_additional"] = [[]]
+
+-- Princess
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Princess
+SlashCo.LangTable["princess_description"] = [[Een hondachtig wezen dat sterk lijkt op een overdreven grote Pitbull, met fel gloeiende groene ogen. Deze Demon heeft een bijzonder grote drang om mensen, vooral peuters en kleine kinderen, brutaal aan te vallen en te verscheuren.]]
+SlashCo.LangTable["princess_description_additional"] = [[Deze Slasher wordt SNEL [ANGER]. Princess kan Baby's krijgen om te verscheuren, waardoor zijn woede afneemt en hij voor korte tijd kalmeert. Als hij aanvalt, begint Princess met het verscheuren en het slachtoffer moet [STRUGGLE] om aan zijn greep te ontsnappen. [ANGER] verhoogt de moeilijkheidsgraad van de [STRUGGLE].]]
+
+-- Rocks
+SlashCo.LangTable["rocks_description"] = [[]]
+SlashCo.LangTable["rocks_description_additional"] = [[]]
+
+-- Sid
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Sid
+SlashCo.LangTable["sid_description"] = [[Een niet-organische entiteit in de vorm van een ruw gemaakt mascottekostuum van het personage Koekiemonster. De Slasher is bewapend met een groot kaliber pistool dat lijkt te werken zonder te hoeven herladen. De kogels die hij afvuurt zijn gemeten als .50 BMG. Deze Slasher is extreem agressief en psychotisch. Zijn enige zorg lijkt het zo snel mogelijk doden van zoveel mogelijk mensen te zijn.]]
+SlashCo.LangTable["sid_description_additional"] = [[Deze Slasher krijgt snel [ANGER]. Bij een lage [ANGER] zal Sid Koekjes zoeken om op te eten. Als je een koekje eet, wordt [ANGER] iets minder en is Sid ongeveer een minuut rustig. Bij een hoge [ANGER] zal Sid zijn pistool uitrusten. Hierna eet hij geen koekjes meer.]]
+
+-- Speedrunner
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Speedrunner
+SlashCo.LangTable["speedrunner_description"] = [[Een grote, skeletachtige, humanoïde cryptide met een groene huid en een masker met een witte smiley. Men denkt dat dit verband houdt met het zo snel mogelijk uitspelen van een survivalvideogame met blokken. Deze Slasher lijkt een soort 'warming-up' nodig te hebben voordat hij zijn volledige snelheid kan gebruiken.]]
+SlashCo.LangTable["speedrunner_description_additional"] = [[Deze Slasher krijgt ZEER SNEL [ANGER]. Speedrunner kan alleen passief [ANGER] opdoen. De bewegingssnelheid van deze Slasher is aanvankelijk erg langzaam, maar wordt sterk beïnvloed door [ANGER].]]
+
+-- Thristy
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Thirsty
+SlashCo.LangTable["thirsty_description"] = [[Een humanoïde entiteit die een volledig zwart lichaamspak en een gebarsten, effen wit masker lijkt te dragen. Deze Slasher beweegt zich heel rustig voort en lijkt niet erg agressief te zijn, maar het vermoeden bestaat dat hij snel geïrriteerd raakt als hij wordt geprovoceerd. Deze Demon heeft een ongelooflijk hoge affiniteit voor melk, wat als voordeel kan worden gebruikt om hem afgeleid te houden.]]
+SlashCo.LangTable["thirsty_description_additional"] = [[Deze Slasher krijgt snel [ANGER], vooral als hij zich ergert. Bij een lage tot gemiddelde [ANGER] is Dorst PASSIEF. Dorst zoekt melkkannen om te drinken.]]
+
+-- Trollege
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Trollge
+SlashCo.LangTable["trollge_description"] = [[Een dunne, skeletachtige figuur met een groot, verwrongen lachend hoofd. De bewegingen van de entiteit lijken fragiel en langzaam. Het is gebleken dat deze Slasher grote moeite heeft met het visueel onderscheiden van objecten die niet in beweging zijn. De Slasher heeft ook een ongelooflijk goed gehoor en lijkt gemakkelijk te irriteren.]]
+SlashCo.LangTable["trollge_description_additional"] = [[Bij een hoge [ANGER] wordt Trollge gevoeliger voor geluiden en zal hij er eerder naartoe sprinten.]]
+
+-- Tyler
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/Igor
+SlashCo.LangTable["tyler_description"] = [[Een transcendente niet-lichamelijke entiteit die de vorm aanneemt van muzikant Tyler The Creator. In zijn passieve staat lijkt de entiteit ervan te genieten om te dansen alsof hij op het podium staat en om zijn onverklaarbare kracht te gebruiken om voorwerpen uit het niets te creëren. De entiteit kan zich ook manifesteren in een alternatieve vorm: “Tyler: The Destroyer”. FUEL zal aanzienlijk schaarser worden met deze Slasher aanwezig, Tyler The Creator zal binnen een beperkte tijd gevonden moeten worden: anders wordt hij Tyler: The Destroyer voor een korte duur. Hij kan gevonden worden door te luisteren naar zijn muziek, waarvan het volume afneemt met [ANGER]. Tyler: The Destroyer kan verschillende ITEMS VERNIETIGEN en als je dat doet, verkort je zijn duur.]]
+SlashCo.LangTable["tyler_description_additional"] = [[]]
+
+-- Watcher
+-- NOTE: The Description is straight out of the SlashCo VR wiki -> https://slashco-vr.fandom.com/wiki/The_Watcher
+SlashCo.LangTable["the watcher_description"] = [[Een umbra-entiteit, in de vorm van een extreem lange oude man met een olijfkleurige overjas, een ronde bril en een hoed. De entiteit strompelt onhandig als hij zich beweegt en observeert zijn slachtoffers meestal geduldig terwijl hij zich in het donker verschuilt. Deze Slasher geeft er de voorkeur aan om in groepen te leven en is een wrede moordenaar als hij alleen is.]]
+SlashCo.LangTable["the watcher_description_additional"] = [[Deze Slasher kan niet passief [ANGER] krijgen. De toeschouwer zal ZEER SNEL [ANGER] krijgen wanneer hij een slachtoffer observeert.]]

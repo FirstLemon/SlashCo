@@ -24,8 +24,6 @@ SlashCo.LangTable["NoneRescued"] = "Os Trabalhadores SlashCo deixados não puder
 SlashCo.LangTable["Cursed"] = "Sua alma agora está perdida."
 SlashCo.LangTable["Judgement"] = "JULGAMENTO"
 SlashCo.LangTable["newplayer_spawnnotice"] = "Pressione [%s] para gerar"
-SlashCo.LangTable["slasher_replacement"] = "Você foi escolhido como o novo slasher"
-SlashCo.LangTable["item_refund"] = "Você recebeu o reembolso de %s pontos pelos seus itens"
 
 SlashCo.LangTable["InLobby"] = "No Lobby"
 SlashCo.LangTable["InGame"] = "No jogo (%s)"
@@ -580,3 +578,100 @@ SlashCo.LangTable["points_quickescape"] = "[%s] ESCAPA RÁPIDA"
 SlashCo.LangTable["points_slowescape"] = "[%s] ESCAPA LENTA"
 SlashCo.LangTable["points_benadryl"] = "[%s] BENADRYL"
 SlashCo.LangTable["points_working"] = "[%s] CUMPRINDO SUAS TAREFAS"
+
+-- ToDo: Translate properly
+-- document localization
+
+-- UI
+SlashCo.LangTable["documents_screen_slasher_title"] = "[SLASHERS]"
+SlashCo.LangTable["documents_screen_locations_title"] = "[LOCATIONS]"
+SlashCo.LangTable["documents_screen_archive_title"] = "[ARQUIVO]"
+
+SlashCo.LangTable["documents_screen_left_click_help"] = "[Clique com o botão esquerdo] = Entrar na página"
+SlashCo.LangTable["documents_screen_right_click_help"] = "[Clique com o botão direito] = Sair da página"
+
+SlashCo.LangTable["documents_unlocky_entry"] = "ENCONTRE O SLASHER PARA DESBLOQUEAR A ENTRADA"
+SlashCo.LangTable["documents_unknown_name"] = "DESCONHECIDO"
+SlashCo.LangTable["documents_attached_file"] = "[VIEW ATTACHED FILE]"
+SlashCo.LangTable["documents_danger_level"] = "DANGER LVL:"
+SlashCo.LangTable["documents_slasher_class"] = "CLASS:"
+SlashCo.LangTable["documents_slasher_entry"] = "ENTRY:"
+SlashCo.LangTable["documents_slasher_alias"] = "ALIASES:"
+SlashCo.LangTable["documents_survive_slasher"] = "[SOBREVIVER AO SLASHER PARA MAIS INFORMAÇÕES]"
+
+-- slasher docs
+
+-- Abomignat
+SlashCo.LangTable["abomignat_description"] = [[Uma grande criatura criptídea que se assemelha a um mamífero bípede com uma boca exagerada parecida com a de uma armadilha de venus. Devido à sua estrutura magra, este criptídeo parece se mover em alta velocidade e caça suas presas com seus longos membros equipados com unhas espessas, afiadas o suficiente para dilacerar qualquer alvo. Apesar de não ter boa audição por não possuir orelhas, possui 4 olhos compostos protuberantes que lhe concedem um amplo campo de visão para ajudar a caçar sua próxima vítima.]]
+SlashCo.LangTable["abomignat_description_additional"] = [[Este Slasher às vezes rasteja pelo chão para percorrer longas distâncias em alta velocidade. Com alto [RAIVA], ele investirá contra suas vítimas causando dano pesado.]]
+
+-- Amogus
+SlashCo.LangTable["amogus_description"] = [[]]
+SlashCo.LangTable["amogus_description_additional"] = [[]]
+
+-- Bababooey
+SlashCo.LangTable["bababooey_description"] = [[Uma entidade não orgânica composta de fumaça particulada muito espessa, semelhante a alcatrão, que se condensa na forma de um humanoide masculino musculoso, com um queixo enorme e uma enorme boca sorridente. Esse Slasher parece não ser muito agressivo, preferindo ser mais brincalhão com suas vítimas. Ele parece se divertir ao assustar os humanos e pegá-los desprevenidos.]]
+SlashCo.LangTable["bababooey_description_additional"] = [[Quando Bababooey atingir alto [RAIVA], ele começará a ficar invisível, indicado por um som alto. Quando invisível, assustará os sobreviventes que alcançar. Enquanto invisível, também deixará clones inofensivos para assustar os sobreviventes.]]
+
+-- Borgmire
+SlashCo.LangTable["borgmire_description_additional"] = [[Este Slasher ganha [RAIVA] rapidamente. Durante a perseguição, Borgmire perderá [RAIVA]. Com alto [RAIVA], Borgmire ganhará a habilidade de correr muito rápido.]]
+
+-- Covenant
+SlashCo.LangTable["covenant_description"] = [[]]
+SlashCo.LangTable["covenant_description_additional"] = [[]]
+
+-- Criminal
+SlashCo.LangTable["criminal_description"] = [[]]
+SlashCo.LangTable["criminal_description_additional"] = [[]]
+
+-- Dolphinman
+SlashCo.LangTable["dolphinman_description"] = [[Uma criatura criptídea humanoide, com corpo de homem e características biológicas de um golfinho. Sua pele secreta um muco pegajoso, dando uma textura brilhante e úmida. A criatura possui visão muito fraca, dependendo principalmente de sua audição e ecolocalização para perceber o ambiente. Ao caçar, emite um uivo contínuo e alto para intimidar a presa.]]
+SlashCo.LangTable["dolphinman_description_additional"] = [[Este Slasher é extremamente sensível a sons e possui visão muito limitada. Se provocado por um som alto, Dolphinman começará a uivar alto e iniciará a CAÇA. Durante a CAÇA, Dolphinman possui boa visão. A sensibilidade a sons altos aumenta com [RAIVA].]]
+
+-- Smiley Dealer
+SlashCo.LangTable["smiley_description"] = [[]]
+SlashCo.LangTable["smiley_description_additional"] = [[]]
+
+-- Leuonard
+SlashCo.LangTable["leuonard_description"] = [[]]
+SlashCo.LangTable["leuonard_description_additional"] = [[]]
+
+-- Male07
+SlashCo.LangTable["male07_description"] = [[]]
+SlashCo.LangTable["male07_description_additional"] = [[]]
+
+-- Manspider
+SlashCo.LangTable["manspider_description"] = [[]]
+SlashCo.LangTable["manspider_description_additional"] = [[]]
+
+-- Princess
+SlashCo.LangTable["princess_description"] = [[Uma criatura canina que se assemelha fortemente a um Pitbull excessivamente grande, com olhos verdes brilhantes. Este Demônio demonstra grande vontade de atacar e mutilar humanos, especialmente bebês e crianças pequenas.]]
+SlashCo.LangTable["princess_description_additional"] = [[Este Slasher ganha [RAIVA] RAPIDAMENTE. Princess pode receber Babies para mutilar, o que reduzirá sua raiva e o pacificará por um curto período. Ao atacar, Princess começará a mutilar, e a vítima deve [LUTAR] para escapar. [RAIVA] aumenta a dificuldade do [LUTAR].]]
+
+-- Rocks
+SlashCo.LangTable["rocks_description"] = [[]]
+SlashCo.LangTable["rocks_description_additional"] = [[]]
+
+-- Sid
+SlashCo.LangTable["sid_description"] = [[Uma entidade não orgânica que assume a forma de uma fantasia rudimentar do Cookie Monster. Este Slasher está armado com uma pistola de grande calibre que parece não precisar recarregar. As balas são do calibre .50 BMG. Este Slasher é extremamente agressivo e psicótico. Sua única preocupação é matar o máximo de humanos possível rapidamente.]]
+SlashCo.LangTable["sid_description_additional"] = [[Este Slasher ganha [RAIVA] rapidamente. Com baixo [RAIVA], Sid buscará Cookies para comer. Comer um cookie reduz ligeiramente [RAIVA] e pacifica Sid por cerca de um minuto. Com alto [RAIVA], Sid equipará sua arma. Após isso, ele não comerá mais cookies.]]
+
+-- Speedrunner
+SlashCo.LangTable["speedrunner_description"] = [[Um grande criptídeo humanoide esquelético de pele verde, usando uma máscara de rosto sorridente branca, relacionado à tentativa de bater o tempo mais curto possível em um jogo de sobrevivência baseado em blocos. Este Slasher parece precisar de um "aquecimento" antes de usar sua velocidade total.]]
+SlashCo.LangTable["speedrunner_description_additional"] = [[Este Slasher ganha [RAIVA] MUITO RAPIDAMENTE. Speedrunner só pode ganhar [RAIVA] passivamente. Sua velocidade de movimento é inicialmente muito baixa, mas é fortemente afetada por [RAIVA].]]
+
+-- Thirsty
+SlashCo.LangTable["thirsty_description"] = [[Uma entidade humanoide, parecendo usar um traje preto completo e uma máscara branca rachada. Este Slasher se move silenciosamente e não é muito agressivo, mas é suspeito de se irritar facilmente se provocado. Este Demônio tem grande afinidade com Leite, o que pode ser usado para distraí-lo.]]
+SlashCo.LangTable["thirsty_description_additional"] = [[Este Slasher ganha [RAIVA] rapidamente, especialmente se provocado. Com [RAIVA] baixo a médio, Thirsty é PASSIVO. Thirsty buscará Jugs de Leite para beber.]]
+
+-- Trollge
+SlashCo.LangTable["trollge_description"] = [[Uma figura esquelética magra com uma cabeça grande e sorridente contorcida. Seus movimentos parecem frágeis e lentos. Este Slasher tem grande dificuldade em enxergar objetos imóveis. Possui audição extremamente apurada e parece se irritar facilmente.]]
+SlashCo.LangTable["trollge_description_additional"] = [[Com alto [RAIVA], Trollge se tornará mais sensível a sons e terá maior probabilidade de correr em direção a eles.]]
+
+-- Tyler
+SlashCo.LangTable["tyler_description"] = [[Uma entidade transcendente não corpórea que assume a forma do artista musical Tyler The Creator. Em seu estado passivo, a entidade parece gostar de dançar como se estivesse no palco, usando seu poder inexplicável para criar objetos do nada. A entidade também pode se manifestar em uma forma alternativa: "Tyler: O Destruidor". COMBUSTÍVEL será consideravelmente mais escasso na presença deste Slasher. Tyler The Creator deve ser encontrado em um tempo limitado; caso contrário, ele se tornará Tyler: O Destruidor por um curto período. Ele pode ser localizado ouvindo sua música, cujo volume diminui com [RAIVA]. Tyler: O Destruidor pode DESTRUIR diversos ITENS, encurtando sua duração.]]
+SlashCo.LangTable["tyler_description_additional"] = [[]]
+
+-- Watcher
+SlashCo.LangTable["the watcher_description"] = [[Uma entidade umbra, assumindo a forma de um homem muito alto e idoso, vestindo um sobretudo oliva, óculos redondos e chapéu. A entidade se movimenta de forma desajeitada e é relatada principalmente observando vítimas pacientemente escondida no escuro. Este Slasher prefere permanecer em grupos, mas mostrou ser um assassino brutal quando sozinho.]]
+SlashCo.LangTable["the watcher_description_additional"] = [[Este Slasher não pode ganhar [RAIVA] passivamente. O Watcher ganhará [RAIVA] MUITO RAPIDAM]()]()
